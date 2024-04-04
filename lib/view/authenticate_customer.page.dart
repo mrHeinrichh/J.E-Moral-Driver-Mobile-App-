@@ -289,15 +289,15 @@ class _AuthenticatePageState extends State<AuthenticatePage> {
                   ? Colors.white
                   : const Color(0xFF050404).withOpacity(0.5),
             ),
-            // ElevatedButton(
-            //     onPressed: () {
-            //       Navigator.pushNamed(
-            //         context,
-            //         dropOffRoute,
-            //         arguments: {'transactionData': transactionData},
-            //       );
-            //     },
-            //     child: Text('Drop Off')),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(
+                    context,
+                    dropOffRoute,
+                    arguments: {'transactionData': transactionData},
+                  );
+                },
+                child: Text('Drop Off')),
             SpareButton(
               text: 'CANCEL ORDER',
               onPressed: isScanningSuccessful

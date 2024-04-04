@@ -77,7 +77,7 @@ class CompletedCard extends StatelessWidget {
                   if (transactionData.containsKey('discountIdImage'))
                     BodyMediumText(
                       text:
-                          'Assemble Option: ${transactionData['assembly'] ? 'Yes' : 'No'}',
+                          'Assemble Option: ${transactionData['installed'] ? 'Yes' : 'No'}',
                     ),
                   BodyMediumOver(
                     text:

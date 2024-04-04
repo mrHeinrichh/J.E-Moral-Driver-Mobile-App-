@@ -225,7 +225,7 @@ class _DropOffCardState extends State<DropOffCard> {
                               .containsKey('discountIdImage'))
                             BodyMediumText(
                               text:
-                                  'Assemble Option: ${_fetchedTransactionData!['assembly'] ? 'Yes' : 'No'}',
+                                  'Assemble Option: ${_fetchedTransactionData!['installed'] ? 'Yes' : 'No'}',
                             ),
                           BodyMediumOver(
                             text:

@@ -310,7 +310,7 @@ class _PickedUpCardState extends State<PickedUpCard> {
                     if (widget.transactionData.containsKey('discountIdImage'))
                       BodyMediumText(
                         text:
-                            'Assemble Option: ${widget.transactionData['assembly'] ? 'Yes' : 'No'}',
+                            'Installation Option: ${widget.transactionData['installed'] ? 'Yes' : 'No'}',
                       ),
                     // BodyMediumOver(
                     //   text:
